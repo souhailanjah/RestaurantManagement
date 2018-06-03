@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagment.PL", "..\..\..\Desktop\RestaurantManagment1.1\RestaurantManagment\RestaurantManagment.PL.csproj", "{AFC30712-B043-4957-BBEC-39E3E11F25A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3F7A777-CE27-46A1-966F-5B7EB0E04DAE} = {F3F7A777-CE27-46A1-966F-5B7EB0E04DAE}
+		{E0B4EBA8-3EFF-45DF-B4AF-13985EBCBF60} = {E0B4EBA8-3EFF-45DF-B4AF-13985EBCBF60}
+		{9CB4D9D9-BBF5-4717-B7D5-E3FDC6FB89BD} = {9CB4D9D9-BBF5-4717-B7D5-E3FDC6FB89BD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagment.Entites", "RestaurantManagment.Entites\RestaurantManagment.Entites.csproj", "{9CB4D9D9-BBF5-4717-B7D5-E3FDC6FB89BD}"
 EndProject
